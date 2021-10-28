@@ -1,3 +1,4 @@
+#iptables –A OUTPUT –p tcp –s [IPSORG] --tcp-flags RST RST –j DROP
 import logging
 from scapy.all import *
 logging.getLogger("scapy.runtime").setLevel(logging.ERROR)
