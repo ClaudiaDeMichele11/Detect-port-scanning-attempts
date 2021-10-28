@@ -1,4 +1,4 @@
-# detect_port_scanner
+# Detect port scanning attempts
 
 TCP connect is a three-way handshake between the client and the server. If the three-way handshake takes place, then communication has been established.
 
